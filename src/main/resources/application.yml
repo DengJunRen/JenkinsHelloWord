@@ -1,0 +1,9 @@
+# 定位模板的目录
+spring:
+  mvc:
+    view:
+      prefix: /html/
+      suffix: .html
+server:
+  servlet:
+    context-path: /jenkins
