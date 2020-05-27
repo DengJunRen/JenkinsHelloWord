@@ -8,7 +8,7 @@ public class HtmlController {
 
     @GetMapping("/")
     public String toIndex(){
-        System.out.println(1111111111);
+        System.out.println(22222);
         return "index";
     }
 }
